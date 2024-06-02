@@ -1,4 +1,4 @@
-# Green-Travel-Tracker
+# Green-Travel-Tracker and carbon Calculator
 This project is used to tracke carbon  emission for some location. It is basically a test software for a software engineering class assignment.
 
 
