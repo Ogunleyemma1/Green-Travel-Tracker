@@ -1,0 +1,48 @@
+Starting Location,Destination,Intermediate Stop,iCar Available,iBus Available,iTrain Available,iBike Available,iCar Distance (km),iBus Distance (km),iTrain Distance (km),iBike Distance (km),dCar Available,dBus Available,dTrain Available,dBike Available,dCar Distance (km),dBus Distance (km),dTrain Distance (km),dBike Distance (km),TDistanceC,TDistanceB,TDistanceT,TDistanceBi
+New York,Los Angeles,A,true,true,true,false,4500,4400,4000,5000,true,true,true,true,4500,4400,4000,5000,9000,8800,8000,10000
+Chicago,Houston,B,true,true,true,true,1700,1500,1700,2100,true,true,true,true,1700,1500,1700,2100,3400,3000,3400,4200
+San Francisco,Miami,C,true,true,true,true,4800,4400,5000,5500,true,true,true,true,4800,4400,5000,5500,9600,8800,10000,11000
+Seattle,Atlanta,D,true,true,true,true,3900,3300,3800,4500,true,true,true,true,3900,3300,3800,4500,7800,6600,7600,9000
+Boston,Dallas,F,true,true,true,true,2700,2700,2800,3200,true,true,true,true,2700,2700,2800,3200,5400,5400,5600,6400
+Dallas,Houston,New Orleans,true,true,true,true,800,700,1100,1300,true,true,true,true,800,700,1100,1300,1600,1400,2200,2600
+goetheplatz,erfurt,weimar,true,true,false,true,2.3,2.3,0,0.3,true,false,true,false,23.5,0,20,0,800,700,1100,1300
+erfurt,goetheplatz,weimar,true,false,true,false,23.5,0,20,0,true,true,false,true,2.3,2.3,0,.3,0,0,0,0
+goetheplatz,jena,weimar,true,true,false,true,2.3,2.3,0,.3,true,true,true,false,20,20,20,0
+jena,goetheplatz,weimar,true,true,true,false,20,20,20,0,true,true,false,true,2.3,2.3,0,.3
+merketal,weimar,goetheplatz,true,true,false,true,2.6,2.6,0,2.3,true,true,false,true,2.3,2.3,0,.3
+weimar,merketal,goetheplatz,true,true,false,true,2.3,2.3,0,.3,true,true,false,true,2.6,2.6,0,2.3
+hellerweg,erfurt,weimar,true,true,false,true,1.9,1.9,0,1.7,true,false,true,false,23.5,0,20,0
+erfurt,hellerweg,weimar,true,false,true,false,23.5,0,20,0,true,true,false,true,1.9,1.9,0,1.7
+bauhaus,weimar,goetheplatz,true,true,false,true,1.4,1.4,0,1,true,true,false,true,2.3,2.3,0,.3
+weimar,bauhaus,goetheplatz,true,true,false,true,2.3,2.3,0,.3,true,true,false,true,1.4,1.4,0,1
+bauhaus,erfurt,weimar,true,true,false,true,3,3,0,2.1,true,false,true,false,23.5,0,20,0
+erfurt,bauhaus,weimar,true,false,true,false,23.5,0,20,0,true,true,false,true,3,3,0,2.1
+weimar,munich,erfurt,true,false,true,false,23.5,0,20,0,true,false,true,true,413.1,0,317,406.5
+munich,weimar,erfurt,true,false,true,true,413.1,0,317,406.5,true,false,true,false,23.5,0,20,0
+weimar,munich,leipzig,true,false,true,true,129.7,0,84,104,true,false,true,true,430,0,361,468.2
+munich,weimar,leipzig,true,false,true,true,430,0,361,468.2,true,false,true,true,129.7,0,84,104
+weimar,munich,nuremberg,true,false,true,true,245,0,173,226.6,true,false,true,true,170.2,0,149,187.4
+munich,weimar,nuremberg,true,false,true,true,170.2,0,149,187.4,true,false,true,true,245,0,173,226.6
+weimar,berlin,jena,true,true,true,false,20,20,20,0,true,false,true,true,262.5,0,216,273.7
+berlin,weimar,jena,true,false,true,true,262.5,0,216,273.7,true,true,true,false,20,20,20,0
+weimar,berlin,erfurt,true,false,true,false,23.5,0,20,0,true,false,true,true,304.2,0,236,285.5
+berlin,weimar,erfurt,true,false,true,true,304.2,0,236,285.5,true,false,true,false,23.5,0,20,0
+weimar,berlin,liepzig,true,false,true,true,129.7,0,84,104,true,false,true,true,192.3,0,148,184
+berlin,weimar,liepzig,true,false,true,true,192.3,0,148,184,true,false,true,true,129.7,0,84,104
+jena,eisenach,erfurt,true,false,true,true,54.3,0,43,47.4,true,false,true,true,70.8,0,50,60.6
+eisenach,jena,erfurt,true,false,true,true,70.8,0,50,60.6,true,false,true,true,54.3,0,43,47.4
+jena,eisenach,gotha,true,false,true,true,80.1,0,81,74.4,true,false,true,true,32,0,27,33.7
+eisenach,jena,gotha,true,false,true,true,32,0,27,33.7,true,false,true,true,80.1,0,81,74.4
+jena,eisenach,weimar,true,true,true,false,20,20,20,0,true,false,true,true,84.4,0,69.95,86.6
+eisenach,jena,weimar,true,false,true,true,84.4,0,69.95,86.6,true,true,true,false,20,20,20,0
+gera,jena,weida,true,true,true,true,15.7,15.7,11,17.4,true,false,true,true,56.3,0,37,48.2
+jena,gera,weida,true,false,true,true,56.3,0,37,48.2,true,true,true,true,15.7,15.7,11,17.4
+gera,jena,hermsdorf,true,true,true,true,14.5,14.5,20.7,22.3,true,false,true,true,28.7,0,19,23.6
+jena,gera,hermsdorf,true,false,true,true,28.7,0,19,23.6,true,true,true,true,14.5,14.5,20.7,22.3
+gera,jena,stadtroda,true,false,true,false,39.1,0,25,0,true,false,true,true,32.5,0,25,32.8
+jena,gera,stadtroda,true,false,true,true,32.5,0,25,32.8,true,false,true,false,39.1,0,25,0
+weimar,jena,apolda,true,true,true,true,17.2,17.2,17,17.4,true,true,true,true,16,16,18,15.4
+jena,weimar,apolda,true,true,true,true,16,16,18,15.4,true,true,true,true,17.2,17.2,17,17.4
+weimar,jena,dornburg,true,false,true,false,280,0,272,319.4,true,false,true,false,309.3,0,300,327.8
+jena,weimar,dornburg,true,false,true,false,309.3,0,300,327.8,true,false,true,false,280,0,272,319.4
+
